@@ -5,7 +5,7 @@ public class StackURL {
     public static void main(String[] args) {
         Stack<String> stack = new Stack<>();
         int choice = 0;
-        String URL=null;
+        String URL = null;
         Scanner input = new Scanner(System.in);
         do {
             System.out.println("****************JAVA-HACKATHON-05-ADVANCE-1-MENU***************");
@@ -22,7 +22,7 @@ public class StackURL {
                     stack.push(URL);
                     break;
                 case 2:
-                    if(stack.size()>1) {
+                    if (stack.size() > 1) {
                         stack.pop();
                         System.out.println("The last URL: " + stack.peek());
                     } else {
